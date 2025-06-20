@@ -5,7 +5,6 @@
       "name": "four-card-feature-section",
       "dependencies": {
         "tailwindcss": "^4.1.10",
-        "typescript": "^5.8.3",
         "vite": "npm:rolldown-vite@latest",
         "vue": "^3.5.13",
       },
@@ -13,6 +12,9 @@
         "@tailwindcss/vite": "^4.1.10",
         "@vitejs/plugin-vue": "^5.2.3",
         "@vue/tsconfig": "^0.7.0",
+      },
+      "peerDependencies": {
+        "typescript": "^5.8.3",
       },
     },
   },

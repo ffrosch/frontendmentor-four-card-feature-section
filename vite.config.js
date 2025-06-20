@@ -9,5 +9,6 @@ export default defineConfig({
       "@": "/src",
     },
   },
+  base: '/frontendmentor-four-card-feature-section/',
   plugins: [vue(), tailwindcss()],
 });
