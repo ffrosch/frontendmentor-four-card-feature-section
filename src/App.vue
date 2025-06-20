@@ -20,6 +20,7 @@ import Hero from '@/components/Hero.vue';
             :description="card.description"
             :image="card.image"
             :color="card.color"
+            :alt="`Icon of ${card.alt}`"
             :class="index === 0 || index === 3 ? 'lg:row-span-2 lg:self-center' : ''"
         />
     </section>
