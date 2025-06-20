@@ -6,7 +6,7 @@ defineProps<CardData>();
 
 <template>
     <section
-        class="flex flex-col gap-3 max-w-[420px] p-10 pb-12 border-t-4 rounded-lg shadow-2xl"
+        class="flex flex-col gap-3 max-w-[560px] lg:max-w-[420px] p-10 pb-12 border-t-4 rounded-lg shadow-2xl"
         :class="{
             'border-primary-red': color === 'red',
             'border-primary-blue': color === 'blue',
