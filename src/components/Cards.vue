@@ -10,7 +10,7 @@ import Hero from '@/components/Hero.vue';
         subtitle="Powered by Technology"
         description="Our Artificial Intelligence powered tools use millions of project data points to enssure that your project is successful"
     />
-    <div class="grid gap-8 place-content-center lg:grid-rows-2 lg:grid-flow-col m-8">
+    <section class="grid gap-8 place-content-center lg:grid-rows-2 lg:grid-flow-col m-8">
         <Card
             v-for="[index, card] of data.entries()"
             :key="card.title"
@@ -20,5 +20,5 @@ import Hero from '@/components/Hero.vue';
             :color="card.color"
             :class="index === 0 || index === 3 ? 'lg:row-span-2 lg:self-center' : ''"
         />
-    </div>
+    </section>
 </template>
