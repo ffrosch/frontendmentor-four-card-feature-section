@@ -5,7 +5,7 @@ defineProps<CardData>();
 </script>
 
 <template>
-    <section
+    <article
         class="flex flex-col gap-3 min-w-[320px] max-w-[560px] lg:max-w-[420px] p-10 pb-12 border-t-4 rounded-lg shadow-2xl bg-neutral-white"
         :class="{
             'border-primary-red': color === 'red',
@@ -21,5 +21,5 @@ defineProps<CardData>();
             :alt="alt"
             class="self-end w-16 h-16"
         />
-    </section>
+    </article>
 </template>
